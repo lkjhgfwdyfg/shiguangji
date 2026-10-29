@@ -1,6 +1,7 @@
 # 拾光记
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![GitHub Repo](https://img.shields.io/badge/repo-lkjhgfwdyfg%2Fshiguangji-2ea44f.svg)
 ![React](https://img.shields.io/badge/React-18-61dafb.svg)
 ![Vite](https://img.shields.io/badge/Vite-5-646cff.svg)
 ![Capacitor](https://img.shields.io/badge/Capacitor-6-119ecc.svg)
@@ -72,7 +73,8 @@ shiguangji/
 需要 Node.js 18+（推荐 20+）。不需要任何其他环境。
 
 ```bash
-# 1. 进入项目
+# 1. 克隆项目并进入目录
+git clone https://github.com/lkjhgfwdyfg/shiguangji.git
 cd shiguangji
 
 # 2. 安装依赖（首次约几分钟）
