@@ -1,46 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FCECCB"/>
-      <stop offset="1" stop-color="#EEA87C"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.72" cy="0.22" r="0.62">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FFF8E6"/>
-      <stop offset="1" stop-color="#F7CD8F"/>
-    </linearGradient>
-  </defs>
+  <rect width="512" height="512" rx="112" fill="#FAF6EF"/>
 
-  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
-  <rect width="512" height="512" rx="112" fill="url(#glow)"/>
+  <!-- 手：手腕从左下斜入，掌心托书，右侧手指上扬 -->
+  <path fill="#E9A87C" d="
+    M104 430
+    L104 388
+    C104 376 114 370 128 370
+    L280 370
+    C300 370 316 364 336 352
+    L392 322
+    C404 316 416 320 420 330
+    C423 338 419 346 410 350
+    L360 378
+    L396 378
+    C408 378 416 386 414 396
+    C412 406 404 412 392 412
+    L348 412
+    L372 412
+    C384 412 392 420 390 430
+    C388 440 380 446 368 446
+    L180 446
+    C148 446 122 440 104 430 Z"/>
+  <!-- 指缝弧线 -->
+  <path d="M356 380 C362 392 362 404 356 414" stroke="#FAF6EF" stroke-width="4" fill="none" stroke-linecap="round"/>
 
-  <g transform="translate(256,302) scale(1.12) translate(-256,-302)">
-    <!-- 晨光光晕与半圆 -->
-    <circle cx="256" cy="272" r="64" fill="#FFF6E0" opacity="0.32"/>
-    <circle cx="256" cy="272" r="40" fill="url(#sun)"/>
-    <g stroke="#FFF3D8" stroke-width="9" stroke-linecap="round" opacity="0.9">
-      <path d="M182 244 Q196 232 214 228" fill="none"/>
-      <path d="M330 244 Q316 232 298 228" fill="none"/>
-    </g>
+  <!-- 翻开的书：描边 -->
+  <path fill="none" stroke="#E9A87C" stroke-width="10" stroke-linejoin="round" d="
+    M256 250 L128 196 L128 330
+    C168 320 212 326 256 346
+    C300 326 344 320 384 330 L384 196 L256 250 Z"/>
+  <path d="M256 250 L256 346" stroke="#E9A87C" stroke-width="10" stroke-linecap="round"/>
 
-    <!-- 书页底部柔影 -->
-    <path d="M158 356 C192 348 224 352 256 360 C288 352 320 348 354 356 L354 368 C320 362 288 366 256 372 C224 366 192 362 158 368 Z" fill="#D98E5F" opacity="0.12"/>
-
-    <!-- 翻开的书页 -->
-    <g fill="#FFFDF9">
-      <path d="M256 290 C222 286 186 290 160 300 L160 358 C192 350 224 354 256 362 Z"/>
-      <path d="M256 290 C290 286 326 290 352 300 L352 358 C320 350 288 354 256 362 Z"/>
-    </g>
-    <path d="M256 290 L256 362" stroke="#F0E3CE" stroke-width="3" stroke-linecap="round"/>
-
-    <g stroke="#EFCFAF" stroke-width="8" stroke-linecap="round">
-      <path d="M180 318 L234 322"/>
-      <path d="M180 342 L224 345"/>
-      <path d="M278 322 L332 318"/>
-      <path d="M288 345 L332 342"/>
-    </g>
-  </g>
+  <!-- 半圆太阳 -->
+  <path fill="#F2994A" d="M194 250 A62 62 0 0 1 318 250 Z"/>
 </svg>
