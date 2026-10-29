@@ -49,7 +49,7 @@
 ## 项目结构
 
 ```
-you-plan/
+shiguangji/
 ├── public/icons/          # PWA 图标（192/512/maskable/apple-touch/favicon）
 ├── docs/screenshots/      # 界面预览截图
 ├── src/
@@ -73,7 +73,7 @@ you-plan/
 
 ```bash
 # 1. 进入项目
-cd you-plan
+cd shiguangji
 
 # 2. 安装依赖（首次约几分钟）
 npm install
@@ -252,7 +252,7 @@ A：网页版不发送任何通知（保持不打扰）。打包成 App 后，�
 A：图片只存在 App 本地（IndexedDB），不联网。选图时会自动压缩到合适大小，一般一张几十 KB 到几百 KB，不会占用太多空间。
 
 **Q：我改坏了代码怎么办？**
-A：整个项目都在 `you-plan/` 目录里，用 Git 管理（`git init` 后每次改动 `git commit`），改坏了可以回退。
+A：整个项目都在 `shiguangji/` 目录里，用 Git 管理（`git init` 后每次改动 `git commit`），改坏了可以回退。
 
 ## 版本
 
