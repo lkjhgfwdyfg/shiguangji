@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 晨光光晕 -->
+    <path android:fillColor="#FFF6E0" android:fillAlpha="0.32"
+        android:pathData="M41,47a13,13 0 1,0 26,0a13,13 0 1,0 -26,0z"/>
+    <!-- 晨光半圆（下半由书页遮挡） -->
+    <path android:pathData="M45.5,47a8.5,8.5 0 1,0 17,0a8.5,8.5 0 1,0 -17,0z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:endX="54" android:endY="55.5" android:startX="54" android:startY="38.5" android:type="linear">
+                <item android:color="#FFF8E6" android:offset="0.0"/>
+                <item android:color="#F7CD8F" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 两侧柔光 -->
+    <path android:pathData="M38.5,42.5 Q41,40.5 44,40" android:strokeColor="#FFF3D8" android:strokeWidth="1.8" android:strokeLineCap="round" android:fillColor="#00000000"/>
+    <path android:pathData="M69.5,42.5 Q67,40.5 64,40" android:strokeColor="#FFF3D8" android:strokeWidth="1.8" android:strokeLineCap="round" android:fillColor="#00000000"/>
+
+    <!-- 翻开的书页 -->
+    <path android:fillColor="#FFFDF9" android:pathData="M54,51 C48.5,50.3 42.5,51 38.5,52.7 L38.5,63.2 C43.5,62 48.5,62.6 54,63.8 Z"/>
+    <path android:fillColor="#FFFDF9" android:pathData="M54,51 C59.5,50.3 65.5,51 69.5,52.7 L69.5,63.2 C64.5,62 59.5,62.6 54,63.8 Z"/>
+    <path android:pathData="M54,51 L54,63.8" android:strokeColor="#F0E3CE" android:strokeWidth="0.6" android:strokeLineCap="round" android:fillColor="#00000000"/>
+
+    <!-- 计划条目横线 -->
+    <path android:pathData="M41.5,56 L50,56.6" android:strokeColor="#EFCFAF" android:strokeWidth="1.6" android:strokeLineCap="round" android:fillColor="#00000000"/>
+    <path android:pathData="M41.5,60 L48.5,60.4" android:strokeColor="#EFCFAF" android:strokeWidth="1.6" android:strokeLineCap="round" android:fillColor="#00000000"/>
+    <path android:pathData="M58,56.6 L66.5,56" android:strokeColor="#EFCFAF" android:strokeWidth="1.6" android:strokeLineCap="round" android:fillColor="#00000000"/>
+    <path android:pathData="M59.5,60.4 L66.5,60" android:strokeColor="#EFCFAF" android:strokeWidth="1.6" android:strokeLineCap="round" android:fillColor="#00000000"/>
+</vector>

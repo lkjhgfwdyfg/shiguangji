@@ -1,0 +1,10 @@
+{
+  "latest": "0.5.5",
+  "notes": [
+    "更新下载真正在 App 内部进行：有进度条，不再跳转浏览器",
+    "下载完成自动打开系统安装界面",
+    "安装时不再提示「已安装相同版本」"
+  ],
+  "apkUrl": "https://cdn.jsdelivr.net/gh/<your-github-username>/youplan-updates@main/shiguangji-v0.5.5.apk",
+  "publishedAt": "2026-10-23"
+}

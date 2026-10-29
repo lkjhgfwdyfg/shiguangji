@@ -1,0 +1,29 @@
+# ---- 依赖与构建产物 ----
+node_modules
+dist
+dev-dist
+.DS_Store
+*.local
+
+# ---- 打包出的 APK / 二进制发布包（不入库，由 CI 或本地构建生成）----
+*.apk
+*.aab
+
+# ---- iOS 工程（按需 npx cap add ios 生成，本仓库不提交）----
+ios
+
+# ---- Android 构建与同步产物（源码与 res 入库，生成物忽略）----
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/.idea/
+android/*.iml
+android/app/*.iml
+# npx cap sync 生成到 assets 的内容，由构建自动刷新，不入库
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+
+# ---- 本地图标设计临时目录 ----
+.icon-preview/
